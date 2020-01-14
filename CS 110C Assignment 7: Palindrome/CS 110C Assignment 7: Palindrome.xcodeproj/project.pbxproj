@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0209D2701E9F3B6A00002C2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0209D26F1E9F3B6A00002C2A /* main.cpp */; };
+		0209D2781E9F593200002C2A /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0209D2761E9F593200002C2A /* Stack.cpp */; };
+		0209D27C1E9F59E900002C2A /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0209D27A1E9F59E900002C2A /* Queue.cpp */; };
+		0209D2801EA0394E00002C2A /* ArrayQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0209D27E1EA0394E00002C2A /* ArrayQueue.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0209D26A1E9F3B6A00002C2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0209D26C1E9F3B6A00002C2A /* CS 110C Assignment 7: Palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS 110C Assignment 7: Palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0209D26F1E9F3B6A00002C2A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0209D2761E9F593200002C2A /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = SOURCE_ROOT; };
+		0209D2771E9F593200002C2A /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = SOURCE_ROOT; };
+		0209D27A1E9F59E900002C2A /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		0209D27B1E9F59E900002C2A /* Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		0209D27E1EA0394E00002C2A /* ArrayQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayQueue.cpp; sourceTree = "<group>"; };
+		0209D27F1EA0394E00002C2A /* ArrayQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArrayQueue.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0209D2691E9F3B6A00002C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0209D2631E9F3B6A00002C2A = {
+			isa = PBXGroup;
+			children = (
+				0209D26E1E9F3B6A00002C2A /* CS 110C Assignment 7: Palindrome */,
+				0209D26D1E9F3B6A00002C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0209D26D1E9F3B6A00002C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0209D26C1E9F3B6A00002C2A /* CS 110C Assignment 7: Palindrome */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0209D26E1E9F3B6A00002C2A /* CS 110C Assignment 7: Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				0209D2791E9F59D000002C2A /* Stack */,
+				0209D27D1E9F59EF00002C2A /* Queue */,
+				0209D2811EA0395700002C2A /* ArrayQueue */,
+				0209D26F1E9F3B6A00002C2A /* main.cpp */,
+			);
+			path = "CS 110C Assignment 7: Palindrome";
+			sourceTree = "<group>";
+		};
+		0209D2791E9F59D000002C2A /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				0209D2771E9F593200002C2A /* Stack.hpp */,
+				0209D2761E9F593200002C2A /* Stack.cpp */,
+			);
+			name = Stack;
+			sourceTree = "<group>";
+		};
+		0209D27D1E9F59EF00002C2A /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				0209D27A1E9F59E900002C2A /* Queue.cpp */,
+				0209D27B1E9F59E900002C2A /* Queue.hpp */,
+			);
+			name = Queue;
+			sourceTree = "<group>";
+		};
+		0209D2811EA0395700002C2A /* ArrayQueue */ = {
+			isa = PBXGroup;
+			children = (
+				0209D27E1EA0394E00002C2A /* ArrayQueue.cpp */,
+				0209D27F1EA0394E00002C2A /* ArrayQueue.hpp */,
+			);
+			name = ArrayQueue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0209D26B1E9F3B6A00002C2A /* CS 110C Assignment 7: Palindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0209D2731E9F3B6A00002C2A /* Build configuration list for PBXNativeTarget "CS 110C Assignment 7: Palindrome" */;
+			buildPhases = (
+				0209D2681E9F3B6A00002C2A /* Sources */,
+				0209D2691E9F3B6A00002C2A /* Frameworks */,
+				0209D26A1E9F3B6A00002C2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CS 110C Assignment 7: Palindrome";
+			productName = "CS 110C Assignment 7: Palindrome";
+			productReference = 0209D26C1E9F3B6A00002C2A /* CS 110C Assignment 7: Palindrome */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0209D2641E9F3B6A00002C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "vasyl golub";
+				TargetAttributes = {
+					0209D26B1E9F3B6A00002C2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0209D2671E9F3B6A00002C2A /* Build configuration list for PBXProject "CS 110C Assignment 7: Palindrome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0209D2631E9F3B6A00002C2A;
+			productRefGroup = 0209D26D1E9F3B6A00002C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0209D26B1E9F3B6A00002C2A /* CS 110C Assignment 7: Palindrome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0209D2681E9F3B6A00002C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0209D27C1E9F59E900002C2A /* Queue.cpp in Sources */,
+				0209D2781E9F593200002C2A /* Stack.cpp in Sources */,
+				0209D2701E9F3B6A00002C2A /* main.cpp in Sources */,
+				0209D2801EA0394E00002C2A /* ArrayQueue.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0209D2711E9F3B6A00002C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0209D2721E9F3B6A00002C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0209D2741E9F3B6A00002C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0209D2751E9F3B6A00002C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0209D2671E9F3B6A00002C2A /* Build configuration list for PBXProject "CS 110C Assignment 7: Palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0209D2711E9F3B6A00002C2A /* Debug */,
+				0209D2721E9F3B6A00002C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0209D2731E9F3B6A00002C2A /* Build configuration list for PBXNativeTarget "CS 110C Assignment 7: Palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0209D2741E9F3B6A00002C2A /* Debug */,
+				0209D2751E9F3B6A00002C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0209D2641E9F3B6A00002C2A /* Project object */;
+}

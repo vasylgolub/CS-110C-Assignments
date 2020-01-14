@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue0;\red0\green0\blue255;\red163\green21\blue21;
+\red43\green131\blue159;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab543
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 //\cf0 \
+\cf2 //  main.cpp\cf0 \
+\cf2 //  CS 110C Assignment 7: Palindrome\cf0 \
+\cf2 //\cf0 \
+\cf2 //  Created by vasyl golub on 4/12/17.\cf0 \
+\cf2 //  Copyright \'a9 2017 vasyl golub. All rights reserved.\cf0 \
+\cf2 //\cf0 \
+\
+\cf3 #include \cf4 <iostream>\cf3 \
+#include \cf4 "Stack.hpp"\cf3 \
+#include \cf4 "ArrayQueue.hpp"\cf3 \
+using\cf0  \cf3 namespace\cf0  \cf5 std\cf0 ;\
+\
+\
+\cf3 bool\cf0  checkPalindrome(\cf5 string\cf0  s)\{\
+    \cf5 Stack\cf0 <\cf3 char\cf0 > stack;\
+    \cf5 ArrayQueue\cf0  myQueue;\
+    \
+    \cf3 for\cf0 (\cf3 auto\cf0  c:s) stack.\cf5 push\cf0 (c);\
+    \cf3 for\cf0 (\cf3 auto\cf0  c:s) myQueue.\cf5 enqueue\cf0 (c);\
+    \
+    \
+    \cf3 for\cf0  (\cf3 int\cf0  i = 0; i<s.\cf5 length\cf0 (); i++) \{\
+        \
+        \
+        \cf3 if\cf0  (stack.\cf5 peek\cf0 () != myQueue.\cf5 peekFront\cf0 ())\cf3 return\cf0  \cf3 false\cf0 ;\
+            stack.\cf5 pop\cf0 ();\
+            myQueue.\cf5 dequeue\cf0 ();\
+    \}\
+\
+    \
+    \
+    \
+    \
+    \cf3 return\cf0  \cf3 true\cf0 ;\
+\}\
+\
+\cf3 int\cf0  main(\cf3 int\cf0  argc, \cf3 const\cf0  \cf3 char\cf0  * argv[]) \{\
+    \
+    \cf5 cout\cf0 <<\cf4 "aa:\\t\\t "\cf0  <<\cf5 checkPalindrome\cf0 (\cf4 "aa"\cf0 )<<\cf5 endl\cf0 ;\
+    \
+    \cf5 cout\cf0 <<\cf4 "aba:\\t "\cf0 <<\cf5 checkPalindrome\cf0 (\cf4 "aba"\cf0 )<<\cf5 endl\cf0 ;\
+\
+    \cf5 cout\cf0 <<\cf4 "abba:\\t "\cf0 <<\cf5 checkPalindrome\cf0 (\cf4 "abba"\cf0 )<<\cf5 endl\cf0 ;\
+\
+    \cf5 cout\cf0 <<\cf4 "aabb:\\t "\cf0  <<\cf5 checkPalindrome\cf0 (\cf4 "aabb"\cf0 )<<\cf5 endl\cf0 ;\
+    \
+    \cf5 cout\cf0 <<\cf4 "abbaa:\\t "\cf0 <<\cf5 checkPalindrome\cf0 (\cf4 "abbaa"\cf0 )<<\cf5 endl\cf0 ;\
+    \
+    \cf5 cout\cf0 <<\cf4 "a:\\t\\t "\cf0 <<\cf5 checkPalindrome\cf0 (\cf4 "a"\cf0 )<<\cf5 endl\cf0 ;\
+\
+\
+\
+    \
+    \
+    \
+    \
+    \cf3 return\cf0  0;\
+\}\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \
+\
+\
+\
+\
+\
+\
+\
+/////////output/////////////////////////////////////////////\
+\
+aa:		 1\
+aba:	 1\
+abba:	 1\
+aabb:	 0\
+abbaa:	 0\
+a:		 1\
+Program ended with exit code: 0\
+////////////////////////////////////////////////////////////}
