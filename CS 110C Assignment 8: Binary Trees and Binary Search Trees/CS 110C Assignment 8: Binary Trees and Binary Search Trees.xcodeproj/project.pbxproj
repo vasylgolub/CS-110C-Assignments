@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0209D28F1EA3318400002C2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0209D28E1EA3318400002C2A /* main.cpp */; };
+		024D0F8A1EA4512900C20FDA /* BinaryNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 024D0F881EA4512900C20FDA /* BinaryNode.cpp */; };
+		024D0F8E1EA4515800C20FDA /* BinaryNodeTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 024D0F8C1EA4515800C20FDA /* BinaryNodeTree.cpp */; };
+		024D0F911EA4519800C20FDA /* NotFoundException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 024D0F8F1EA4519800C20FDA /* NotFoundException.cpp */; };
+		024D0F941EA451EB00C20FDA /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 024D0F921EA451EB00C20FDA /* PrecondViolatedExcep.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0209D2891EA3318400002C2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0209D28B1EA3318400002C2A /* CS 110C Assignment 8: Binary Trees and Binary Search Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS 110C Assignment 8: Binary Trees and Binary Search Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0209D28E1EA3318400002C2A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		024D0F881EA4512900C20FDA /* BinaryNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryNode.cpp; sourceTree = "<group>"; };
+		024D0F891EA4512900C20FDA /* BinaryNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryNode.hpp; sourceTree = "<group>"; };
+		024D0F8C1EA4515800C20FDA /* BinaryNodeTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryNodeTree.cpp; sourceTree = "<group>"; };
+		024D0F8D1EA4515800C20FDA /* BinaryNodeTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryNodeTree.hpp; sourceTree = "<group>"; };
+		024D0F8F1EA4519800C20FDA /* NotFoundException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotFoundException.cpp; sourceTree = "<group>"; };
+		024D0F901EA4519800C20FDA /* NotFoundException.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NotFoundException.hpp; sourceTree = "<group>"; };
+		024D0F921EA451EB00C20FDA /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		024D0F931EA451EB00C20FDA /* PrecondViolatedExcep.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrecondViolatedExcep.hpp; sourceTree = "<group>"; };
+		024D0F961EA4527800C20FDA /* BinaryTreeInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeInterface.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0209D2881EA3318400002C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0209D2821EA3318400002C2A = {
+			isa = PBXGroup;
+			children = (
+				0209D28D1EA3318400002C2A /* CS 110C Assignment 8: Binary Trees and Binary Search Trees */,
+				0209D28C1EA3318400002C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0209D28C1EA3318400002C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0209D28B1EA3318400002C2A /* CS 110C Assignment 8: Binary Trees and Binary Search Trees */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0209D28D1EA3318400002C2A /* CS 110C Assignment 8: Binary Trees and Binary Search Trees */ = {
+			isa = PBXGroup;
+			children = (
+				0209D28E1EA3318400002C2A /* main.cpp */,
+				024D0F961EA4527800C20FDA /* BinaryTreeInterface.hpp */,
+				024D0F9B1EA48E2900C20FDA /* PrecondViolatedExcep */,
+				024D0F9A1EA48E1800C20FDA /* NotFoundException */,
+				024D0F981EA48DF800C20FDA /* BinaryNodeTree */,
+				024D0F991EA48E0200C20FDA /* BinaryNode */,
+			);
+			path = "CS 110C Assignment 8: Binary Trees and Binary Search Trees";
+			sourceTree = "<group>";
+		};
+		024D0F981EA48DF800C20FDA /* BinaryNodeTree */ = {
+			isa = PBXGroup;
+			children = (
+				024D0F8D1EA4515800C20FDA /* BinaryNodeTree.hpp */,
+				024D0F8C1EA4515800C20FDA /* BinaryNodeTree.cpp */,
+			);
+			name = BinaryNodeTree;
+			sourceTree = "<group>";
+		};
+		024D0F991EA48E0200C20FDA /* BinaryNode */ = {
+			isa = PBXGroup;
+			children = (
+				024D0F881EA4512900C20FDA /* BinaryNode.cpp */,
+				024D0F891EA4512900C20FDA /* BinaryNode.hpp */,
+			);
+			name = BinaryNode;
+			sourceTree = "<group>";
+		};
+		024D0F9A1EA48E1800C20FDA /* NotFoundException */ = {
+			isa = PBXGroup;
+			children = (
+				024D0F8F1EA4519800C20FDA /* NotFoundException.cpp */,
+				024D0F901EA4519800C20FDA /* NotFoundException.hpp */,
+			);
+			name = NotFoundException;
+			sourceTree = "<group>";
+		};
+		024D0F9B1EA48E2900C20FDA /* PrecondViolatedExcep */ = {
+			isa = PBXGroup;
+			children = (
+				024D0F921EA451EB00C20FDA /* PrecondViolatedExcep.cpp */,
+				024D0F931EA451EB00C20FDA /* PrecondViolatedExcep.hpp */,
+			);
+			name = PrecondViolatedExcep;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0209D28A1EA3318400002C2A /* CS 110C Assignment 8: Binary Trees and Binary Search Trees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0209D2921EA3318400002C2A /* Build configuration list for PBXNativeTarget "CS 110C Assignment 8: Binary Trees and Binary Search Trees" */;
+			buildPhases = (
+				0209D2871EA3318400002C2A /* Sources */,
+				0209D2881EA3318400002C2A /* Frameworks */,
+				0209D2891EA3318400002C2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CS 110C Assignment 8: Binary Trees and Binary Search Trees";
+			productName = "CS 110C Assignment 8: Binary Trees and Binary Search Trees";
+			productReference = 0209D28B1EA3318400002C2A /* CS 110C Assignment 8: Binary Trees and Binary Search Trees */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0209D2831EA3318400002C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "vasyl golub";
+				TargetAttributes = {
+					0209D28A1EA3318400002C2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0209D2861EA3318400002C2A /* Build configuration list for PBXProject "CS 110C Assignment 8: Binary Trees and Binary Search Trees" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0209D2821EA3318400002C2A;
+			productRefGroup = 0209D28C1EA3318400002C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0209D28A1EA3318400002C2A /* CS 110C Assignment 8: Binary Trees and Binary Search Trees */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0209D2871EA3318400002C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D0F941EA451EB00C20FDA /* PrecondViolatedExcep.cpp in Sources */,
+				024D0F8A1EA4512900C20FDA /* BinaryNode.cpp in Sources */,
+				024D0F8E1EA4515800C20FDA /* BinaryNodeTree.cpp in Sources */,
+				024D0F911EA4519800C20FDA /* NotFoundException.cpp in Sources */,
+				0209D28F1EA3318400002C2A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0209D2901EA3318400002C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0209D2911EA3318400002C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0209D2931EA3318400002C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0209D2941EA3318400002C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0209D2861EA3318400002C2A /* Build configuration list for PBXProject "CS 110C Assignment 8: Binary Trees and Binary Search Trees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0209D2901EA3318400002C2A /* Debug */,
+				0209D2911EA3318400002C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0209D2921EA3318400002C2A /* Build configuration list for PBXNativeTarget "CS 110C Assignment 8: Binary Trees and Binary Search Trees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0209D2931EA3318400002C2A /* Debug */,
+				0209D2941EA3318400002C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0209D2831EA3318400002C2A /* Project object */;
+}
